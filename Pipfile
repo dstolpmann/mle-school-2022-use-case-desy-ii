@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+cheetah = {ref = "v0.5.13", git = "https://github.com/desy-ml/cheetah.git"}
+gym = {version = "==0.21", extras = ["box2d"]}
+imageio = "*"
+matplotlib = "*"
+moviepy = "*"
+names = "*"
+numba = "*"
+numexpr = "*"
+numpy = "*"
+opencv-python = "*"
+pandas = "*"
+pyfftw = "*"
+pyyaml = "*"
+stable-baselines3 = "*"
+torch = "*"
+
+[dev-packages]
+ipykernel = "*"
+
+[requires]
+python_version = "3.9"
